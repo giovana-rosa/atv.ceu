@@ -1,0 +1,118 @@
+/*FORMAAÇÃO GERAL*/
+
+
+
+
+/*FORMATAÇÃO DO TOPO*/
+
+header nav ul {
+    display: flex;
+}
+header nav a img {
+    margin: 2vw 0 0 2vw;
+}
+
+/*FORMATAÇÃO DO BANNER*/
+
+.banner {
+    background-color: #1090cb1a;
+}
+.primeiro {
+    background-color: #1090CB;
+    color: white;
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 0.4vw;
+    border: none;
+    margin: 0 1vw 0 10vw;
+}
+.segundo {
+    background-color: white;
+    color: #1090CB;
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 0.4vw;
+    border-color: #1090CB;
+}
+nav ul {
+    justify-content: flex-end;
+}
+header nav ul li a span {
+    color: #1090CB;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 2vw 2vw 2vw 2vw;
+}
+header nav ul li a button {
+    background-color: #1090CB;
+    color: white;
+    padding: 1w 2vw 1vw 2vw;
+    border: none;
+    border-radius: 1vw;
+}
+
+/*FORMATAÇÃO DO CONTEÚDO*/
+
+section div h1 {
+    font-weight: bold;
+}
+section.banner h1 {
+    font-size: 2.5rem;
+    margin: 10vw 2vw 3.5vw 10vw;
+}
+section.banner div.titulo h1 span {
+    color: #1090CB;
+}
+section.banner div.titulo p {
+    font-size: 1vw;
+    margin: 1vw 0 3.5vw 10vw;
+}
+section.banner div.experiencia {
+    display: flex;
+}
+section.servicos nav ul.lista {
+    display: flex;
+}
+/*QUADRADO*/
+
+section.conteudo div.cinza {
+    background-color: #F4F4F4;
+}
+section.conteudo div.cinza p {
+    color: #515151;
+}
+section.conteudo div.cinza button {
+    border: none;
+    background-color: #1090CB;
+    color: white;
+}
+section.conteudo div.azul {
+    background-color: #1090CB;
+}
+section.conteudo div.azul button {
+    border: none;
+    background-color: white;
+    color: #1090CB;
+}
+section.conteudo div.azul p {
+    color: white;
+}
+section.conteudo div.azul h4 {
+    color: white;
+}
+
+/*FORMATAÇÃO DO RODAPÉ*/
+
+footer div.logo{
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    color: #515151;
+}
+footer ul li {
+    color: #515151;
+}
+footer span {
+    color: black;
+}
